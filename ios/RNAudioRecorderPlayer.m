@@ -16,7 +16,7 @@
   NSTimer *recordTimer;
   NSTimer *playTimer;
 }
-double subscriptionDuration = 0.3;
+double subscriptionDuration = 1;
 
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag {
   NSLog(@"audioPlayerDidFinishPlaying");
